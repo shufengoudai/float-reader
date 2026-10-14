@@ -1,0 +1,12 @@
+# 构建产物
+build/
+dist/
+*.spec
+__pycache__/
+
+# 免安装 exe(建议挂 GitHub Releases,而非进 git)
+FloatReader.exe
+
+# 截图以外的临时文件
+*.png
+!doc/*.png
